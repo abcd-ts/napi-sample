@@ -1,0 +1,2 @@
+[workspace]
+members = ["./increment", "./increment-napi"]
