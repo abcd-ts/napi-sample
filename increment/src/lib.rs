@@ -1,4 +1,4 @@
-pub fn increment(n: usize) -> usize {
+pub fn increment(n: i32) -> i32 {
     n + 1
 }
 

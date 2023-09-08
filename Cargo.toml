@@ -1,2 +1,5 @@
 [workspace]
 members = ["./increment", "./increment-napi"]
+
+[workspace.dependencies]
+increment = { path = "./increment" }
