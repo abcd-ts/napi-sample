@@ -1,4 +1,7 @@
 name: CI
+defaults:
+  run:
+    working-directory: increment-napi
 env:
   DEBUG: napi:*
   APP_NAME: increment-napi
